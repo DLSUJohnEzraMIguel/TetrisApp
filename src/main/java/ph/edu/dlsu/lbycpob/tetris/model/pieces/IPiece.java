@@ -1,14 +1,41 @@
 package ph.edu.dlsu.lbycpob.tetris.model.pieces;
 
 public class IPiece extends TetrominoBase {
-    /**
-     * Constructor - This runs when a new Tetris piece is created
-     *
-     * @param shapes - All the rotation patterns for this piece type
-     * @param color  - The color this piece should be displayed in
-     */
+
+    public IPiece() {
+        super(
+                new int[][][] {
+                        { // Rotation 0
+                                {0, 0, 0, 0},
+                                {1, 1, 1, 1},
+                                {0, 0, 0, 0},
+                                {0, 0, 0, 0}
+                        },
+                        { // Rotation 1
+                                {0, 0, 1, 0},
+                                {0, 0, 1, 0},
+                                {0, 0, 1, 0},
+                                {0, 0, 1, 0}
+                        },
+                        { // Rotation 2
+                                {0, 0, 0, 0},
+                                {0, 0, 0, 0},
+                                {1, 1, 1, 1},
+                                {0, 0, 0, 0}
+                        },
+                        { // Rotation 3
+                                {0, 1, 0, 0},
+                                {0, 1, 0, 0},
+                                {0, 1, 0, 0},
+                                {0, 1, 0, 0}
+                        }
+                },
+                TetrominoColor.CYAN
+        );
+    }
+
+
     public IPiece(int[][][] shapes, TetrominoColor color) {
         super(shapes, color);
     }
-    // TODO
 }
