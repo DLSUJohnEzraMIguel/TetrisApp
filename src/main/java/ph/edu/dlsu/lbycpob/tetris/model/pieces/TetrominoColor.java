@@ -8,7 +8,8 @@ public enum TetrominoColor {
     YELLOW("#ffff00"),
     GREEN("#00ff00"),
     PURPLE("#8a2be2"),
-    RED("#ff0000");
+    RED("#ff0000"),
+    PINK("#ffc0cb");
 
     private final String hexValue;
 

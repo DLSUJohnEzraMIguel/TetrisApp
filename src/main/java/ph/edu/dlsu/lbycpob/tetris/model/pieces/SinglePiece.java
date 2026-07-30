@@ -10,7 +10,7 @@ public class SinglePiece extends TetrominoBase {
                                 {1}
                         }
                 },
-                TetrominoColor.CYAN // Choose any color available in TetrominoColor
+                TetrominoColor.PINK // Choose any color available in TetrominoColor
         );
     }
 
