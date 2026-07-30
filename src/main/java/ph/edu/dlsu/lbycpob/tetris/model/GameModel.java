@@ -194,6 +194,7 @@ public class GameModel {
             case Z -> new ZPiece();
             case J -> new JPiece();
             case L -> new LPiece();
+            case SINGLE -> new SinglePiece();
         };
     }
 
