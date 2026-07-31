@@ -140,6 +140,40 @@ public class GameModel {
         return true;
     }
 
+    public boolean rotatePieceLeft() {
+        if (gameOver.get() || paused.get() || currentPiece == null) return false;
+
+        // 1. Rotate counter-clockwise (left)
+        currentPiece.rotateBack();
+
+        // 2. Check if the position is good
+        if (!board.isValidPosition(currentPiece, currentPiece.getX(), currentPiece.getY())) {
+            // Try wall kicks
+            int[] kicksX = {-1, 1, -2, 2};
+            int[] kicksY = {0, 0, 0, 0};
+
+            boolean validRotation = false;
+            for (int i = 0; i < kicksX.length; i++) {
+                if (board.isValidPosition(currentPiece, currentPiece.getX() + kicksX[i],
+                        currentPiece.getY() + kicksY[i])) {
+                    currentPiece.setPosition(currentPiece.getX() + kicksX[i],
+                            currentPiece.getY() + kicksY[i]);
+                    validRotation = true;
+                    break;
+                }
+            }
+
+            // 3. If wall kicks failed, undo by rotating right
+            if (!validRotation) {
+                currentPiece.rotate();
+                return false;
+            }
+        }
+
+        notifyListeners();
+        return true;
+    }
+
     public void dropPiece() {
         if (gameOver.get() || paused.get() || currentPiece == null) return;
 

@@ -41,11 +41,7 @@ public class GameController implements GameModelListener {
         view.getRestartButton().setOnAction(e -> restartGame());
     }
 
-//    private void setupKeyHandling() {
-//        view.getRoot().setOnKeyPressed(this::handleKeyPressed);
-//        view.getRoot().setFocusTraversable(true);
-//        view.getRoot().requestFocus();
-//    }
+
 
     private void setupKeyHandling() {
         view.getRoot().setOnKeyPressed(this::handleKeyPressed);
@@ -84,7 +80,10 @@ public class GameController implements GameModelListener {
                 break;
             case UP:
             case W:
-                model.rotatePiece();
+                model.rotatePiece(); // Rotate Right
+                break;
+            case Z:
+                model.rotatePieceLeft(); // Rotate Left
                 break;
             case SPACE:
                 model.dropPiece();

@@ -1,0 +1,71 @@
+[33mcommit 8de39b6bdfe64a89a21b8962ef73a94c471c4b5f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Fri Jul 31 16:33:27 2026 +0800
+
+    Removed Hard drop points
+
+[33mcommit 77a0d3a5e451e1bb9e30093774d118d837021439[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Thu Jul 30 22:38:55 2026 +0800
+
+    Give Single Piece a color
+
+[33mcommit 2210d079e6ffd9a3e8a6eda33dba8af934def26e[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Thu Jul 30 22:31:14 2026 +0800
+
+    Implement SinglePiece in the game play
+
+[33mcommit 0a40e9d50da3f8e45b08f3cd42e2715d1f29ac63[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Thu Jul 30 22:24:53 2026 +0800
+
+    Set default Single piece
+
+[33mcommit 7d6b1dafdc9f88c1bb07eccdb3d799896ff02950[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 01:21:39 2026 +0800
+
+    Set default Z piece
+
+[33mcommit 04e0bf6cd533c5642a040b54bfa959bc3688f401[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 01:11:22 2026 +0800
+
+    Set default T piece
+
+[33mcommit 02fa305e1f85531e5483da50af6d1538b6ede924[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 01:01:58 2026 +0800
+
+    Set default S piece
+
+[33mcommit 3621f3228b82b488060929fbe910a10312e0ba79[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 00:51:45 2026 +0800
+
+    Set default O piece
+
+[33mcommit 8bd967def2865dbe170c334f1697b49eb04db963[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 00:40:42 2026 +0800
+
+    Set default L piece
+
+[33mcommit 269b2a5ec09efdff530768ddb3ad24324d4961a7[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 00:32:26 2026 +0800
+
+    Set default J piece
+
+[33mcommit edb4c27b1dcb7f1f276362fa0fabfed51b63c025[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Wed Jul 29 00:23:17 2026 +0800
+
+    Set default I piece
+
+[33mcommit f5b0261742230abb9efe3f6f2e849a7017195b95[m
+Author: DLSUJohnEzraMIguel <john_ezra_miguel_balili@dlsu.edu.ph>
+Date:   Tue Jul 28 23:27:39 2026 +0800
+
+    Initial set up for Tetris
