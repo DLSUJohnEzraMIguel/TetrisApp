@@ -146,7 +146,7 @@ public class GameModel {
         while (movePieceDown()) {
             // Keep dropping until it can't move down
         }
-        addScore(20); // Bonus for hard drop
+        addScore(0); // No more points for hard drop
     }
 
     private void lockPiece() {
